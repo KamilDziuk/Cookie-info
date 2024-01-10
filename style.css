@@ -13,37 +13,96 @@ z-index: 998;
 
 .cookie_contener
 {
+font-family: 'Open Sans', sans-serif;    
 /* text-align: center; */
-margin-top: 25%;
-margin-left:15%;
+margin-top: 5%;
+margin-left:20%;
 margin-right:5%;
-width:1084px;
-height: 300px;
+width: 800px;
+height: 460px;
 border-radius: 5px;
 background-color: rgb(255, 255, 255);
 z-index: 999;
+
 }
 
-.popup_text,.accept_button, .settings_button,.popup_text_settings
+.test_contener
+{
+font-size: 12px;
+margin-top: 2%;
+margin-left:10%;
+margin-right:5%;
+width:700px;
+height: 330px;
+border-radius: 5px;
+overflow-y: scroll; 
+overflow-x: hidden;
+}
+.settings_button
+{
+left: 20%;
+position: fixed;
+padding: 9px;
+margin-bottom:0%;
+margin-top:4%;
+margin-left:6%;
+margin-right:0%;
+font-size: 12px;
+}
+
+.back_button
+{
+position: fixed;
+left: 37%;
+padding: 9px;
+margin-bottom:0%;
+margin-top:4%;
+margin-left:6%;
+margin-right:0%;
+font-size: 12px;
+}
+
+.accept_button
+{
+  
+position: fixed;
+left: 26%;
+padding: 9px;
+margin-bottom:0%;
+margin-top:4%;
+margin-left:6%;
+margin-right:0%;
+font-size: 12px;
+}
+.popup_text_settings
 {
 margin-bottom:0%;
 margin-top:1%;
-margin-left:3%;
-margin-right:3%;
-font-size: 17px;
+margin-left:6%;
+margin-right:0%;
+font-size: 12px;
+color: #5c5c5c;
+font-size: unset;
 
 }
-.cancel
-{
-font-size: 17px;
-margin-bottom:1%;
+.popup_text
+{  
+margin-bottom:0%;
 margin-top:1%;
-margin-left:1%;
-margin-right:3%;
-margin-left: 98%;
+margin-left:6%;
+margin-right:6%;
+font-size: 12px;
+color: #5c5c5c;
 }
-
+.popup_logo
+{    
+top: 9%;
+left: 20%;
+position: fixed;
+width:8.5%;
+}
 .a{
-color          : rgb(0, 0, 0);
+color          : #30492B;
 text-decoration: none;
 }
+
